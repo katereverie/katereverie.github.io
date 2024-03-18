@@ -1,6 +1,12 @@
 html {
     width: 80%; 
   }
+
+  body {
+    margin: auto;
+    max-width: fit-content;
+    max-height: fit-content;
+  }
   
   #navfield {
     position: relative;
