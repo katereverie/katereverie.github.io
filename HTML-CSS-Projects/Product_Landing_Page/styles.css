@@ -7,6 +7,10 @@ header {
     z-index: 1;
     margin-top: 2rem;
   }
+
+  body {
+    margin: auto;
+  }
   
   img {
     width: 600px;
