@@ -1,5 +1,7 @@
 body {
   background-color: f0f0f0;
+  max-width: 800px;
+  overflow: hidden;
 }
 
 header {
