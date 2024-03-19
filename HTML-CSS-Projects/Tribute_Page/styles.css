@@ -1,8 +1,5 @@
 body {
   background-color: linen;
-  max-width: 800px;
-  max-height: fit-content;
-  overflow: hidden;
   margin: auto;
 }
 
