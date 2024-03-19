@@ -3,10 +3,6 @@
   --book-scroll: linear-gradient(90deg, grey, white 50%, grey);
 }
 
-body {
-  background-color: white;
-}
-
 .blank1 {
   position: fixed;
   top: 0;
