@@ -1,137 +1,153 @@
-html {
-    width: 80%; 
-  }
+.container1 {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 15%;
+  height: 100%;
+  background-image: linear-gradient(90deg, grey, white 50%, grey);
+}
 
-  body {
-    margin: auto;
-    max-width: 800px;
-    max-height: fit-content;
+#navHeader {
+  font: bold 40px Verdana, sans-serif;
+  text-align: center;
+}
+
+#nav-description {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.nav-link {
+  display: flex;
+  margin: 0;
+  padding: 10 10 10 10;
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
+  text-decoration: none;
+}
+
+#nav-description {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#docfield {
+  display: flex;
+  flex-direction: column;
+  border: 10px solid transparent;
+  width: 60%;
+  position: relative;
+  top: 0;
+  left: 18.5%;
+}
+
+#main-header {
+  font-family: Verdana;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 15%;
+  height: 100%;
+  background-image: linear-gradient(90deg, grey, white 50%, grey);
+}
+
+
+li {
+  font-family: Georgia;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+#description {
+  padding-left: 5px;
+}
+
+#item {
+  padding-left:20;
+}
+
+.code_section {
+  background-color: f2f2f2;
+  padding-left: 5;
+  width: 100%;
+}
+
+#definition {
+  padding-bottom: 10px;
+}
+
+.green_bold {
+  color: green;
+  font-weight: bold;
+  padding-left:0;
+  padding-right:0;
+}
+
+.green_normal {
+  color:green;
+  font-weight: normal;
+  padding-left:0;
+  padding-right:0;
+}
+
+.blue_normal {
+  color: blue;
+  font-weight: normal;
+  padding-left:0;
+  padding-right:0;
+}
+
+.brown_normal {
+  color: brown;
+  font-weight:normal;
+  padding-left:0;
+  padding-right:0;
+}
+
+.brown_bold {
+  color: brown;
+  font-weight:bold;
+  padding-left:0;
+  padding-right:0;
+}
+
+.purple_bold {
+  color: purple;
+  font-weight: bold;
+  padding-left:0;
+  padding-right: 0;
+}
+
+.grey_normal {
+  color: grey;
+  font-weight: normal;
+  padding-left:0;
+  padding-right: 0;
+}
+
+.red_normal {
+  color: red;
+  font-weight: normal;
+  padding-left:0;
+  padding-right: 0;
+}
+
+@media (min-width: 100%) and (max-width: 100%) {
+  * {
+    scroll-behavior: smooth;
   }
-  
-  #navfield {
-    position: relative;
-    padding: 0;
-    margin: 0;
-    background-color: grey;
-  }
-  
-  #navHeader {
-    font-family: Verdana;
-    font-size: 40px;
-    font-weight: bold;
-    padding: 10px 20px 50px 0px;
-    text-align: center;
-  }
-  
-  #main-header {
-    font-family: Verdana;
-    font-weight: bold;
-    padding-top: 15px;
-  }
-  
-  #navbar:not(#navHeader) {
-    text-align: center;
-    padding-right:0;
-    padding-bottom: 100px;
-  }
-  
-  .nav-link {
-    color: blue;
-    padding:18px;
-    text-align: right;
-  }
-  
-  #nav-description {
-    text-align: center;
-    padding-bottom: 10px;
-    font-size: 19px;
-    font-weight: bold;
-  }
-  
-  li {
-    font-family: Georgia;
-    font-size: 15px;
-    font-weight: bold;
-    padding-bottom: 10px;
-  }
-  
-  #description {
-    padding-left: 5px;
-  }
-  
-  #item {
-    padding-left:20;
-  }
-  
-  .code_section {
-    background-color: f2f2f2;
-    padding-left: 5;
-    width: 100%;
-  }
-  
-  #definition {
-    padding-bottom: 10px;
-  }
-  
-  .green_bold {
-    color: green;
-    font-weight: bold;
-    padding-left:0;
-    padding-right:0;
-  }
-  
-  .green_normal {
-    color:green;
-    font-weight: normal;
-    padding-left:0;
-    padding-right:0;
-  }
-  
-  .blue_normal {
-    color: blue;
-    font-weight: normal;
-    padding-left:0;
-    padding-right:0;
-  }
-  
-  .brown_normal {
-    color: brown;
-    font-weight:normal;
-    padding-left:0;
-    padding-right:0;
-  }
-  
-  .brown_bold {
-    color: brown;
-    font-weight:bold;
-    padding-left:0;
-    padding-right:0;
-  }
-  
-  .purple_bold {
-    color: purple;
-    font-weight: bold;
-    padding-left:0;
-    padding-right: 0;
-  }
-  
-  .grey_normal {
-    color: grey;
-    font-weight: normal;
-    padding-left:0;
-    padding-right: 0;
-  }
-  
-  .red_normal {
-    color: red;
-    font-weight: normal;
-    padding-left:0;
-    padding-right: 0;
-  }
-  
-  @media (min-width:500px) and (max-width: 1200px) {
-    * {
-      padding: 5px;
-    }
-  }
-  
+}
